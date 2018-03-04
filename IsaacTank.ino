@@ -79,7 +79,7 @@ void handle_form()
 void setup()
 {
     // connect to wifi network
-    WiFi.begin("CJIHD2", "QHAJ4W7J");
+    WiFi.begin("CJIHD2", "********");
     // static ip, gateway, netmask
     WiFi.config(IPAddress(192,168,1,200), IPAddress(192,168,1,1), IPAddress(255,255,255,0));
     // connect
